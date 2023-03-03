@@ -24,3 +24,41 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*answer*/
+
+body {
+  text-align: center; /*need to add center here! */
+}
+
+.title {
+  /*write on body instead
+  text-align: center; */
+  padding-bottom: 32px; /*or margin as solution*/
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.barberry, /*or class="info"*/
+.chilli,
+.pepper,
+.saffron {
+  width: 200px;
+  /*already show default value
+  flex: 0 1 auto; */
+  /*write on body instead
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; */
+}
+
+/*write on body instead
+.text {
+  text-align: center;
+} */
+
+

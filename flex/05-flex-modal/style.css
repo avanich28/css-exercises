@@ -64,3 +64,39 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/*answer*/
+
+.modal {
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.icon {
+  flex: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /*align-items: flex-start; cannot use space-between on "close button"*/
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  /*text-align: left; has already as default value*/
+}
+
+.close-button {
+  flex: none;
+}
+
